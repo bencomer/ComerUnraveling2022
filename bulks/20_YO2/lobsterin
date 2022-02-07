@@ -1,0 +1,7 @@
+COHPstartEnergy  -25
+COHPendEnergy     15
+usebasisset pbeVaspFit2015
+basisfunctions Y 5s 4d
+basisfunctions O 2s 2p
+
+cohpbetween atom 1 and atom 3 orbitalwise

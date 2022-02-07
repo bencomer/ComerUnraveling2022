@@ -1,0 +1,39 @@
+LOBSTER v4.0.0 (g++ 5.4.0)
+Copyright (C) 2020 by Chair of Solid-State and Quantum Chemistry, RWTH Aachen.
+All rights reserved. Contributions by S. Maintz, V. L. Deringer, M. Esser, R. Nelson, C. Ertural, A. L. Tchougreeff and R. Dronskowski
+starting on host nid02548 on 2021-11-09 at 15:35:30 PST using 66 threads
+detecting used PAW program... VASP
+initializing PW system...
+initializing Augmentations...
+recommended basis functions:
+Nb 4d 4p 5s 
+O 2p 2s 
+initializing LCAO system...
+setting up local basis functions...
+ O (pbeVaspFit2015) 2s 2p_y 2p_z 2p_x 
+Nb (pbeVaspFit2015) 5s 4p_y 4p_z 4p_x 4d_xy 4d_yz 4d_z^2 4d_xz 4d_x^2-y^2 
+WARNING: You are employing too few bands in your PAW calculation. To reconstruct
+WARNING: the Hamilton matrix in the local basis, you need to use at least
+WARNING: 106 bands. pCOHP analyses will be disabled. Please check the manual!
+setting up CO interactions... found 4 interactions.
+projecting...
+WARNING: Cannot use the tetrahedron method for k-space integration and must fall
+WARNING: back to Gaussian smearing which can take significantly longer. Make
+WARNING: sure to use the tetrahedron method whenever applicable.
+
+calculating overlaps...
+post-processing projection...
+spillings for spin channel 1
+abs. total  spilling:   0.85%
+abs. charge spilling:   0.55%
+
+spillings for spin channel 2
+abs. total  spilling:   0.85%
+abs. charge spilling:   0.55%
+
+calculating pDOS... using Gaussian smearing integration (sigma=0.2eV)
+writing DOSCAR.lobster...
+writing COOPCAR.lobster and ICOOPLIST.lobster...
+finished in 0 h  4 min 17 s 607 ms of wall time
+            3 h 12 min  0 s 930 ms of user time
+            0 h 14 min 21 s 660 ms of sys  time

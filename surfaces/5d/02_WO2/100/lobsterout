@@ -1,0 +1,42 @@
+LOBSTER v4.0.0 (g++ 5.4.0)
+Copyright (C) 2020 by Chair of Solid-State and Quantum Chemistry, RWTH Aachen.
+All rights reserved. Contributions by S. Maintz, V. L. Deringer, M. Esser, R. Nelson, C. Ertural, A. L. Tchougreeff and R. Dronskowski
+starting on host nid11945 on 2021-09-22 at 13:54:49 PDT using 66 threads
+detecting used PAW program... VASP
+initializing PW system...
+initializing Augmentations...
+recommended basis functions:
+O 2p 2s 
+W 5d 6s 
+initializing LCAO system...
+setting up local basis functions...
+ O (pbeVaspFit2015) 2s 2p_y 2p_z 2p_x 
+ W (pbeVaspFit2015) 6s 5d_xy 5d_yz 5d_z^2 5d_xz 5d_x^2-y^2 
+INFO: There are more PAW bands than local basis functions available.
+INFO: To prevent trouble in orthonormalization and Hamiltonian reconstruction
+INFO: the PAW bands from 89 and upwards will be ignored.
+setting up CO interactions... found 4 interactions.
+projecting...
+WARNING: Cannot use the tetrahedron method for k-space integration and must fall
+WARNING: back to Gaussian smearing which can take significantly longer. Make
+WARNING: sure to use the tetrahedron method whenever applicable.
+
+calculating overlaps...
+post-processing projection...
+spillings for spin channel 1
+abs. total  spilling:   5.21%
+abs. charge spilling:   1.00%
+
+spillings for spin channel 2
+abs. total  spilling:   5.15%
+abs. charge spilling:   1.00%
+
+calculating pDOS... using Gaussian smearing integration (sigma=0.2eV)
+writing DOSCAR.lobster...
+writing COOPCAR.lobster and ICOOPLIST.lobster...
+calculating pCOHPs... using Gaussian smearing integration (sigma=0.2eV)
+writing COHPCAR.lobster and ICOHPLIST.lobster...
+writing CHARGE.lobster and GROSSPOP.lobster...
+finished in 0 h  4 min 25 s 254 ms of wall time
+            2 h 59 min 27 s 940 ms of user time
+            0 h 15 min 39 s 800 ms of sys  time
